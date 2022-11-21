@@ -41,7 +41,7 @@ export default function App() {
     });
   }
 
-  function removeArticle({ id }) {
+  function removeArticle(id) {
     deleteArticle(id).then(() => {
       setArticle(null);
       setArticles(articles.filter((article) => article.id !== id));
