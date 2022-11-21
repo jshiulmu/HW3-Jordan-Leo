@@ -1,4 +1,4 @@
-export default function Article({ article }) {
+export default function Article({ article, deleter }) {
   return (
     <article>
       {!article ? (
@@ -8,6 +8,13 @@ export default function Article({ article }) {
           <h2>{article.title}</h2>
           <p className="date">{`Posted: ${article.date}`}</p>
           <p className="body">{article.body}</p>
+          <button
+            onClick={() => {
+              deleter(article.id);
+            }}
+          >
+            Delete Post
+          </button>
         </section>
       )}
     </article>
