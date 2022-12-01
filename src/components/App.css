@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
+
 .App {
   display: grid;
   grid-template-rows: min-content auto;
@@ -10,10 +12,33 @@
   background-image: url("https://free4kwallpapers.com/uploads/originals/2019/07/22/outrun-themed-wallpaper.jpg");
   background-size: cover;
   color: white;
+  font-family: "Michroma", sans-serif;
+}
+
+.Header_Button {
+  background-color: black;
+  color: white;
+  font-family: "Michroma", sans-serif;
+  border-color: white;
+  border-style: groove;
+  transition: background-color 0.2s ease-out;
+}
+
+.Header_Button:hover {
+  background-color: black;
+  transition: background-color 0.2s ease-in;
+  color: white;
+}
+
+.Button {
+  background-image: url("https://free4kwallpapers.com/uploads/originals/2019/07/22/outrun-themed-wallpaper.jpg");
+  color: white;
+  font-family: "Michroma", sans-serif;
 }
 
 .Nav {
   background-image: linear-gradient(to bottom, yellow, red);
+  font-family: "Michroma", sans-serif;
 }
 
 header {

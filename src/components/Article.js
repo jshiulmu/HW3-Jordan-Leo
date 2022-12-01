@@ -9,6 +9,7 @@ export default function Article({ article, deleter }) {
           <p className="date">{`Posted: ${article.date}`}</p>
           <p className="body">{article.body}</p>
           <button
+            className="Button"
             onClick={() => {
               deleter(article.id);
             }}

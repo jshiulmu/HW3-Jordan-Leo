@@ -5,7 +5,10 @@ import { auth } from "../firebaseConfig";
 
 export function SignIn() {
   return (
-    <button onClick={() => signInWithPopup(auth, new GoogleAuthProvider())}>
+    <button
+      className="Header_Button"
+      onClick={() => signInWithPopup(auth, new GoogleAuthProvider())}
+    >
       Sign In
     </button>
   );
@@ -15,7 +18,9 @@ export function SignOut() {
   return (
     <div>
       Hello, {auth.currentUser.displayName} &nbsp;
-      <button onClick={() => signOut(auth)}>Sign Out</button>
+      <button className="Header_Button" onClick={() => signOut(auth)}>
+        Sign Out
+      </button>
     </div>
   );
 }

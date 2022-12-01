@@ -15,8 +15,12 @@ export default function ArticleEntry({ addArticle }) {
     }
   }
 
+  function refreshPage() {
+    window.location.reload(false);
+  }
+
   return (
-    <div className="Article_Box">
+    <div className="  Article_Box">
       <form onSubmit={submit}>
         {error && <p className="error">{error}</p>}
         Title
@@ -27,7 +31,10 @@ export default function ArticleEntry({ addArticle }) {
           value={body}
           onChange={(e) => setBody(e.target.value)}
         ></textarea>
-        <button type="submit">Create</button>
+        <button className="Button" type="submit">
+          Create
+        </button>
+        <button onClick={refreshPage}> Cancel </button>
       </form>
     </div>
   );
