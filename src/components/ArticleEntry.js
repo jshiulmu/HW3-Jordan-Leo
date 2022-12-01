@@ -34,7 +34,10 @@ export default function ArticleEntry({ addArticle }) {
         <button className="Button" type="submit">
           Create
         </button>
-        <button onClick={refreshPage}> Cancel </button>
+        <button className="Button" onClick={refreshPage}>
+          {" "}
+          Cancel{" "}
+        </button>
       </form>
     </div>
   );
