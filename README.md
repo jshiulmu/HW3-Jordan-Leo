@@ -1,7 +1,7 @@
 # A Blog Starter App
 
-A blog created with React!
+This is a wonderful, fully-working blog application written for anyone to use! We went for the outrun aesthetic to beautify the look of our website. It is fully furnished with 'add article,' 'delete article,' and 'cancel blog' functions! We call this project: "Outrun: A Blog." Please enjoy!
 
 HW3 Web App Development, Oct-Nov 2022
 
-Jordan Shiu, Leo Dai
+Created by Jordan Shiu and Leo Dai
