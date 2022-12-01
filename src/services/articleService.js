@@ -40,7 +40,5 @@ export async function fetchArticles() {
 }
 
 export async function deleteArticle(id) {
-  console.log("HERE1");
-  //await deleteDoc(doc(db, "articles", id));
-  console.log("HERE2");
+  await deleteDoc(doc(db, "articles", id));
 }
