@@ -1,6 +1,6 @@
 export default function Article({ article, deleter }) {
   return (
-    <article>
+    <article className="Article_Box">
       {!article ? (
         <p>No article selected</p>
       ) : (

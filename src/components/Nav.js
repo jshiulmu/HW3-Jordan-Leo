@@ -1,6 +1,6 @@
 export default function Nav({ articles, setArticle }) {
   return (
-    <nav>
+    <nav className="Nav">
       {!articles
         ? "No articles"
         : articles.map((a) => (

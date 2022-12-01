@@ -4,7 +4,15 @@
   grid-template-columns: 250px auto;
   height: 100vh;
   overflow: scroll;
-  background-image: url("https://img.freepik.com/free-vector/abstract-banner-with-pastel-low-poly-design_1048-12753.jpg?w=1380&t=st=1669666296~exp=1669666896~hmac=dca9e6beb18a1ddca4df172712b6831ba0dcd825fd910e68f0985163fb724e82");
+}
+
+.Article_Box {
+  background-image: url("https://thumbs.dreamstime.com/b/white-gray-background-grey-backdrop-gradient-studio-empty-room-wall-floor-light-space-modern-scene-photography-228064466.jpg");
+  background-size: cover;
+}
+
+.Nav {
+  background-color: #808080;
 }
 
 header {
