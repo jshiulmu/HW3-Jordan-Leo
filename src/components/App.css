@@ -7,12 +7,13 @@
 }
 
 .Article_Box {
-  background-image: url("https://thumbs.dreamstime.com/b/white-gray-background-grey-backdrop-gradient-studio-empty-room-wall-floor-light-space-modern-scene-photography-228064466.jpg");
+  background-image: url("https://free4kwallpapers.com/uploads/originals/2019/07/22/outrun-themed-wallpaper.jpg");
   background-size: cover;
+  color: white;
 }
 
 .Nav {
-  background-color: #808080;
+  background-image: linear-gradient(to bottom, yellow, red);
 }
 
 header {
