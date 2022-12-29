@@ -16,7 +16,7 @@ export async function createArticle({ title, body }) {
 
     //adds the data object to the "articles" collection of the database (db)
     //docRef is the id of the data in the database collection
-    const docRef = await addDoc(collection(db, 'articles'), data)
+    const docRef = await addDoc(collection(db, 'articles', 'newarticle'), data)
     return { id: docRef.id, ...data }
 }
 export async function fetchArticles() {
